@@ -1,0 +1,62 @@
+body { font-family:'Ropa Sans', sans-serif }
+
+
+.wrapper { padding:40px 0 }
+
+.main { position:relative }
+
+/* Header
+-----------------------------------------------*/
+#header { text-align:center; position:relative }
+#header .backToHome { position:absolute; top:10px; left:0 }
+
+#header .logo { margin:20px auto; display:inline-block; position:relative }
+#header .logo:before { font-size:4em; display:inline-block; color:#000; font-style:italic }
+#header .logo h1 { font-size:3em; line-height:1.5em; text-align:center; color:#000; font-style:italic; text-shadow:0px 0px 1px rgba(0,0,0,0); }
+#header .logo span { color:#333; text-align:right; display:block; font-style:italic; text-shadow:0px 0px 1px rgba(0,0,0,0); }
+
+
+
+#headerSmall { text-align:center; position:fixed; top:0; left:0; width:100%; border-bottom:1px solid #ccc; padding:7px; z-index:10 }
+#headerSmall .backToHome { position:absolute; top:2px; left:2px; border:3px double #ccc; border-radius:100%; padding:2px; color:#000;
+    background: rgb(255,255,255);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(50%,rgba(241,241,241,1)), color-stop(51%,rgba(225,225,225,1)), color-stop(100%,rgba(246,246,246,1)));
+    background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%);
+    background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%);
+}
+
+#headerSmall .logo { margin:20px auto; display:inline-block; position:relative }
+#headerSmall .logo:before { font-size:1em; color:#000; font-style:italic; margin-right:15px }
+#headerSmall .logo { font-size:1em; line-height:1.2em; text-align:center; color:#000; font-style:italic; text-shadow:0px 0px 1px rgba(0,0,0,0); margin:0 }
+
+
+
+/* Start
+-----------------------------------------------*/
+.mainNav a { display:block; font-size:2.2em; text-decoration:none; color:#333; border:1px solid #333; border-top:0; padding:.4em;
+    background: rgb(255,255,255);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(50%,rgba(241,241,241,1)), color-stop(51%,rgba(225,225,225,1)), color-stop(100%,rgba(246,246,246,1)));
+    background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%);
+    background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%);
+}
+.mainNav a:before { font-size:1em; margin-right:0.6em }
+.mainNav a:first-child { border-top:1px solid #333; border-radius:.4em .4em 0 0 }
+.mainNav a:last-child { border-radius:0 0 .4em .4em }
+
+
+.mainNav a:hover { color:#000; font-weight:bold;
+    background: rgb(255,255,255);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(50%,rgba(243,243,243,1)), color-stop(51%,rgba(237,237,237,1)), color-stop(100%,rgba(255,255,255,1)));
+    background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(243,243,243,1) 50%,rgba(237,237,237,1) 51%,rgba(255,255,255,1) 100%);
+    background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(243,243,243,1) 50%,rgba(237,237,237,1) 51%,rgba(255,255,255,1) 100%);
+}
+
+
+/* Start
+-----------------------------------------------*/
+.searchWrapper { margin:40px auto; width:300px }
+#search { font-size:1.1em; width:210px; padding:4px }
+#searchButton { font-size:1.1em; width:80px; padding:2px }
+
+footer { position:fixed; bottom:0; left:0; background:#fff; border-top:1px solid #ccc; display:block; width:100%; text-align:center }
+footer a { color:#333 }

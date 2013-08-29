@@ -1,0 +1,49 @@
+@font-face {
+  font-family: 'fontello';
+  src: url('../font/fontello.eot?84426992');
+  src: url('../font/fontello.svg?84426992#fontello') format('svg'),
+       url('../font/fontello.eot?84426992#iefix') format('embedded-opentype'),
+       url('../font/fontello.woff?84426992') format('woff'),
+       url('../font/fontello.ttf?84426992') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+ 
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+     
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.icon-home:before { content: '\e805'; } /* '' */
+.icon-pencil:before { content: '\e801'; } /* '' */
+.icon-compass:before { content: '\e802'; } /* '' */
+.icon-stopwatch:before { content: '\e803'; } /* '' */
+.icon-emo-thumbsup:before { content: '\e804'; } /* '' */
+.icon-search:before { content: '\e800'; } /* '' */
